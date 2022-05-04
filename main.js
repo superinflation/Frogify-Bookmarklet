@@ -1,3 +1,4 @@
+(function() {
 var url = "https://i.pinimg.com/originals/4d/73/f0/4d73f0cec466f102a91e336db64cc7f5.jpg";
 document.querySelector("title").innerHTML = "Ribbit";
 var images = document.querySelectorAll("img");
@@ -23,3 +24,4 @@ for (let a of meta) {
   }
 }
 
+})();

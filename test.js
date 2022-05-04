@@ -5,7 +5,7 @@
    var original = window.Frogify;
 
   var self = (window.Frogify = {
-    add: add,
+    add: start,
     noConflict: function() {
       window.Frogify = original;
       return self;

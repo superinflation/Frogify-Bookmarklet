@@ -11,10 +11,6 @@ for (let link of links) {
     link.href = url;
   }
 }
-var divs = document.querySelectorAll("div");
-for (let div of divs) {
-  divs[i].style.fontFamily = "Comic Sans MS", "Comic Sans", cursive;
-}
 var meta = document.querySelectorAll("meta");
 alert("aa");
 for (let a of meta) {
